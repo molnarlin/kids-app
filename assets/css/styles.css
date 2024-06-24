@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    height: 100vh;
+  }
+  
+  body {
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      overflow-x: hidden;
+      background-image: radial-gradient(#69A069 2%, white 87%, #F0C8C8 1%);
+      color: #011808;
+    }
+    
+    /*Navigation styling*/
+    .navbar {
+        letter-spacing: 5px;
+        color: #011808;
+        background: white;
+    }
+      
+    .navbar-nav li a:hover {
+        color: green;
+    }
+    /*Main content styling*/
+    .main-content{
+      padding-top: 5rem;
+      padding-bottom: 2rem;
+    }
+    
+    /* Memory game card styling*/
+    .front-face, .back-face {
+      width: 7rem;
+      height: 11rem;
+      }
+  
+  /*progress bar styling*/
+  .progress{
+    height: 20px !important;
+    width: 50% !important;
+    background-color: white;
+  }
+  
+  .progress-bar{
+    width: 0%;
+    height: 20px;
+    background-color: green !important;
+  }
+  
+  footer {
+    background: white;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .front-face, .back-face {
+      width: 5rem;
+      height: 7rem;
+      }
+  }
