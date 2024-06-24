@@ -192,3 +192,18 @@ const cards = [
       });
       resetProgressBar();
       }
+
+      // Get a reference to the dropdown element
+  const dropdown = document.getElementById('dropdownMenuButton');
+
+  // Get a reference to the <h1> element
+  const heading = document.getElementById('dynamic-heading');
+
+  // Add an event listener to the dropdown
+  dropdown.addEventListener('change', function() {
+    // Get the selected value from the dropdown
+    const selectedValue = dropdown.value;
+
+    // Update the <h1> text based on the selected value
+    heading.textContent = selectedValue;
+  });
