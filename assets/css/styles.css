@@ -30,7 +30,12 @@
       padding-top: 5rem;
       padding-bottom: 2rem;
     }
-    
+    /* card images styling*/
+    .card > img{
+      width: 12rem;
+      height: 8rem;
+    } 
+
     /* Memory game card styling*/
     .front-face, .back-face {
       width: 7rem;
