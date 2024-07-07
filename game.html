@@ -47,16 +47,16 @@
                       Please select a category / Válassz egy kategoriát!
                     </button>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#numbers">Numbers / Számok</a></li>
-                      <li><a class="dropdown-item" href="#colours">Colours / Színek</a></li>
-                      <li><a class="dropdown-item" href="#fruits">Fruits / Gyümölcsök</a></li>
-                      <li><a class="dropdown-item" href="#vegetables">Vegetables / Zöldségek</a></li>
-                      <li><a class="dropdown-item" href="#food">Food / Ételek</a></li>
-                      <li><a class="dropdown-item" href="#animals">Animals / Állatok</a></li>
-                      <li><a class="dropdown-item" href="#body-parts">Body parts / Test részek</a></li>
-                      <li><a class="dropdown-item" href="#calendar">Days of the week / A hét napjai</a></li>
-                      <li><a class="dropdown-item" href="#clothes">Clothes / Ruhák</a></li>
-                      <li><a class="dropdown-item" href="#family">Family / Család</a></li>
+                      <li><a class="dropdown-item" href="#numbers" onclick="numbers.classList.remove('d-none')">Numbers / Számok</a></li>
+                      <li><a class="dropdown-item" href="#colours" onclick="colours.classList.remove('d-none')">Colours / Színek</a></li>
+                      <li><a class="dropdown-item" href="#fruits" onclick="fruits.classList.remove('d-none')">Fruits / Gyümölcsök</a></li>
+                      <li><a class="dropdown-item" href="#vegetables" onclick="vegetables.classList.remove('d-none')">Vegetables / Zöldségek</a></li>
+                      <li><a class="dropdown-item" href="#food" onclick="food.classList.remove('d-none')">Food / Ételek</a></li>
+                      <li><a class="dropdown-item" href="#animals" onclick="animals.classList.remove('d-none')">Animals / Állatok</a></li>
+                      <li><a class="dropdown-item" href="#body-parts" onclick="body-parts.classList.remove('d-none')">Body parts / Test részek</a></li>
+                      <li><a class="dropdown-item" href="#calendar" onclick="calendar.classList.remove('d-none')">Days of the week / A hét napjai</a></li>
+                      <li><a class="dropdown-item" href="#clothes" onclick="clothes.classList.remove('d-none')">Clothes / Ruhák</a></li>
+                      <li><a class="dropdown-item" href="#family" onclick="family.classList.remove('d-none')">Family / Család</a></li>
 		                </ul>
                   </div>
             </div>
@@ -69,7 +69,7 @@
   <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-labelledby="progress bar for cards"></div>
 </div>
 <!--Action buttons from bootstrap-->
-<div class="container-fluid" id="numbers">
+<div class="container-fluid d-none" id="numbers">
 	<div class="row">
 		<div class="col-11 col-md-10 offset-md-2 mt-md-5">
 			<h1 id="dynamic-heading" class="mt-5">Numbers / Számok</h1>
