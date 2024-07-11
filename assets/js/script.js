@@ -123,6 +123,14 @@ const cards1 = [
       id: "red",
       src: "assets/images/red.webp"}
   ]
+  
+  function toggleSection(id) {
+    const section = document.getElementById(id);
+    if (section){
+    	section.classList.toggle("d-none");
+    }
+  }
+
   let flippedCards = [];
   let matchedCards = [];
   let totalCards = cards.length;
